@@ -13,7 +13,5 @@ int main(void)
 
     free(a);
 
-    free(a);
-
     return 0;
 }

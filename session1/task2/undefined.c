@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int i, j;
+    int i = 5, j;
 
     j = i + 3;
 
