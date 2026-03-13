@@ -26,7 +26,7 @@ message and terminate.
 2. Run the program to check whether it meets all of the expectations outlined
    above. Make a note of your findings.
 
-## Function Breakpoints
+## Function Breakpoints在函数内部添加断点
 
 1. Load the program into GDB, then establish breakpoints just inside the
    `read_data()` and `mean_value()` functions.
@@ -122,7 +122,7 @@ quite easily from within GDB.
 ## Fixing The Problems
 
 The previous experiments established that `mean_value()` looks OK and the
-faults seem to lie in `read_data()`.
+faults seem to lie in `read_data()`.在这里出的错
 
 Make the necessary changes to this function, then try running the program on
 the data files to verify that the expected behaviour is now seen.
