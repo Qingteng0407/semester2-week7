@@ -14,7 +14,7 @@ int main(void)
 
     if (input > password) {
         char* ptr = input;
-        input = password;
+        input = password; 
         password = ptr;
     }
 
@@ -25,8 +25,9 @@ int main(void)
     /* Obtain password from user */
 
     #ifdef VISIBLE
-      printf("Enter your password: ");
-      gets(input);
+      printf("Enter your password: "); 
+      //gets(input);
+        fgets(input, 8, stdin);
     #else
       char* tmp = getpass("Enter your password: ");
       strcpy(input, tmp);
